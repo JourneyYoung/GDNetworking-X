@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GDNetworking-X_Example' do
+  pod 'GDNetworking-X', :path => '../'
+
+  target 'GDNetworking-X_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

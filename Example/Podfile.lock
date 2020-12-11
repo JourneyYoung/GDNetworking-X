@@ -1,0 +1,56 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - GDNetworking-X (0.1.6):
+    - AFNetworking
+    - GDNetworking-X/Core (= 0.1.6)
+    - GDNetworking-X/CoreManager (= 0.1.6)
+    - GDNetworking-X/DataManager (= 0.1.6)
+    - GDNetworking-X/NetworkLog (= 0.1.6)
+    - GDNetworking-X/Request (= 0.1.6)
+  - GDNetworking-X/Core (0.1.6):
+    - AFNetworking
+    - GDNetworking-X/CoreManager
+    - GDNetworking-X/DataManager
+    - GDNetworking-X/NetworkLog
+    - GDNetworking-X/Request
+  - GDNetworking-X/CoreManager (0.1.6):
+    - AFNetworking
+  - GDNetworking-X/DataManager (0.1.6):
+    - AFNetworking
+  - GDNetworking-X/NetworkLog (0.1.6):
+    - AFNetworking
+  - GDNetworking-X/Request (0.1.6):
+    - AFNetworking
+
+DEPENDENCIES:
+  - GDNetworking-X (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  GDNetworking-X:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  GDNetworking-X: 053a54f6ed0fc65977e4021c1dd3536770120632
+
+PODFILE CHECKSUM: a06ed0565c5d26554c61e14d9ac75ea025d740a1
+
+COCOAPODS: 1.6.1
